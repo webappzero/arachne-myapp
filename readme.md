@@ -6,7 +6,6 @@ To get started, look at the `src/arachne_demo_1.clj` file. The `-main` function 
 
 The project is actually three projects in one, and comes with three different Arachne config scripts.
 
-- `"config/simple.xml"` - start a single background task
-- `"config/web.xml"` - starts a Pedestal web server with a hello-world endpoint
-- `"config/system.xml"` - combines the background task with a HTTP endpoint that can observe its current state.
-
+- `"config/simple.clj"` - starts a single background task
+- `"config/web.clj"` - starts a Pedestal web server with a hello-world endpoint
+- `"config/system.clj"` - combines the background task with a HTTP endpoint that can observe its current state.
