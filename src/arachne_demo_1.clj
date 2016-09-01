@@ -20,7 +20,7 @@
 
   (def cfg (arachne/build-config
              [:org.arachne-framework/arachne-pedestal]
-             "config/web.clj"))
+             "config/simple.clj"))
 
   (def rt (atom
             (arachne/runtime cfg :arachne-demo-1/runtime)))
