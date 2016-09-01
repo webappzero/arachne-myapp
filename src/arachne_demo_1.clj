@@ -11,7 +11,7 @@
               config-file)
         rt (arachne/runtime cfg :arachne-demo-1/runtime)]
 
-    (component/start rt)))5
+    (component/start rt)))
 
 
 
