@@ -1,4 +1,4 @@
-(ns arachne-demo-1.ticktock
+(ns myapp.ticktock
   (:require [com.stuartsierra.component :as c]
             [clojure.tools.logging :as log]))
 

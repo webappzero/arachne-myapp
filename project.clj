@@ -1,6 +1,6 @@
-(defproject arachne-demo-1 "0.1.0-SNAPSHOT"
+(defproject myapp "0.1.0-SNAPSHOT"
   :dependencies [[org.clojure/clojure "1.9.0-alpha10"]
-                 [org.arachne-framework/arachne-pedestal "0.1.0-master-0012-a90fc79"]
+                 [org.arachne-framework/arachne-core "0.1.0-master-0055-37c69ac"] 
 
                  [com.datomic/datomic-free "0.9.5350"
                   :exclusions [org.slf4j/slf4j-log4j12

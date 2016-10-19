@@ -1,6 +1,6 @@
 (require '[arachne.core.dsl :as core])
 
-(core/runtime :arachne-demo-1/runtime [:arachne-demo-1/ticktock])
+(core/runtime :myapp/runtime [:myapp/ticktock])
 
-(core/component :arachne-demo-1/ticktock {}
-  'arachne-demo-1.ticktock/->TickTock)
+(core/component :myapp/ticktock {}
+  'myapp.ticktock/->TickTock)
