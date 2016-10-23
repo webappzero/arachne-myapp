@@ -1,11 +1,5 @@
-# Arachne Demo 1
+# Arachne myapp
 
-This is a simple demo of some of Arachne's basic features, using only the core, http and Pedestal modules.
+This simple working Arachne app contains an arbitrary directory structure which serves as a template for git cloning the repo to refactor into your own app. However, the folder hierarchy is not intended to become a convention. It is just a starting point to facilitate the development of Arachne applications and modules. It contains a single module so that the app may be started and stopped for basic testing purposes.
 
-To get started, look at the `src/arachne_demo_1.clj` file. The `-main` function does all that is necessary to load an Arachne config, and start the Arachne runtime. For interactive exploration at the REPL, you can also use the code in the comment block below the `-main` function.
-
-The project is actually three projects in one, and comes with three different Arachne config scripts.
-
-- `"config/simple.clj"` - starts a single background task
-- `"config/web.clj"` - starts a Pedestal web server with a hello-world endpoint
-- `"config/system.clj"` - combines the background task with a HTTP endpoint that can observe its current state.
+To get started, look at the `src/myapp.clj` file. The `-main` function does all that is necessary to load an Arachne config, and start the Arachne runtime. For interactive exploration at the REPL, you can also use the code in the comment block below the `-main` function.

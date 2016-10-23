@@ -7,7 +7,7 @@
   "Application entry point"
   [config-file & _]
   (let [cfg (arachne/build-config
-             [:org.arachne-framework/arachne-core]
+             [:org.arachne-framework/arachne-core]  ;; ??? Why use keyworded namespaces instead of quoted?
               config-file)  ;; ??? Is the output of build config
                              ;;     always THE final config value?
         rt (arachne/runtime cfg :myapp/runtime)]
